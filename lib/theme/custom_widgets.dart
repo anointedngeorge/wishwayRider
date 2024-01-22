@@ -93,3 +93,11 @@ class _cRadioListTileState extends State<cRadioListTile> {
     );
   }
 }
+
+Widget cFormField() {
+  return TextField(
+    strutStyle: StrutStyle(),
+    style: TextStyle(),
+    decoration: InputDecoration(labelText: "Enter Email"),
+  );
+}
