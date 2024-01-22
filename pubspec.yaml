@@ -1,0 +1,68 @@
+name: wishway_rider
+description: "A new Flutter project."
+
+# Prevent accidental publishing to pub.dev.
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.2.3 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  equatable: ^2.0.0
+  flutter_bloc:
+  connectivity_plus:
+  shared_preferences:
+  cached_network_image:
+  flutter_svg:
+  flutter_onboarding_slider:
+  onboarding_animation: ^0.0.3
+  flutter_svg_provider: ^1.0.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Enable generation of localized Strings from arb files.
+  generate: true
+
+  assets:
+    - assets/
+    - assets/images/
+  fonts:
+    - family: Overpass
+      fonts:
+        - asset: assets/fonts/OverpassRomanSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/OverpassSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/OverpassRegular.ttf
+          weight: 400
+    - family: Mulish
+      fonts:
+        - asset: assets/fonts/MulishRomanRegular.ttf
+          weight: 400
+    - family: Outfit
+      fonts:
+        - asset: assets/fonts/OutfitBold.ttf
+          weight: 700
+        - asset: assets/fonts/OutfitSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/OutfitMedium.ttf
+          weight: 500
+        - asset: assets/fonts/OutfitRegular.ttf
+          weight: 400
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/InterRegular.ttf
+          weight: 400
